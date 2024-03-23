@@ -9,11 +9,11 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Address</h5>
+            <h5 className="m-b-20">Dirección</h5>
             <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Phone</h5>
+            <h5 className="m-b-20">Telefono</h5>
             <p>
               Reception : +205 123 4567 <br />
               Office : +207 235 7890
@@ -34,32 +34,36 @@ const Footer = () => {
             </p>
           </Col>
           <Col lg="3" md="6">
-            <h5 className="m-b-20">Social</h5>
+            <h5 className="m-b-20">Redes Sociales</h5>
             <div className="round-social light">
-              <Link href="#">
+              <Link href="https://www.facebook.com/cassdi.solutions/">
                
                   <i className="fa fa-facebook"></i>
                
               </Link>
-              <Link href="#">
+
+              <Link href="https://www.instagram.com/cassdi_solutions/">
               
-                  <i className="fa fa-twitter"></i>
-              
+                  <i className="fa fa-instagram"></i>
+                
               </Link>
-              <Link href="#">
+
+              <Link href="https://github.com/cassdi-solutions">
               
-                  <i className="fa fa-google-plus"></i>
+                  <i className="fa fa-github"></i>
              
               </Link>
+
+              <Link href="https://www.linkedin.com/company/cassdi/">
+              
+                  <i className="fa fa-linkedin"></i>
+              
+              </Link>
+
               <Link href="#">
                
                   <i className="fa fa-youtube-play"></i>
            
-              </Link>
-              <Link href="#">
-              
-                  <i className="fa fa-instagram"></i>
-                
               </Link>
             </div>
           </Col>

@@ -14,7 +14,7 @@ import TeamComponent from "./sections/teamcomponent";
 import TestimonialComponent from "./sections/testimonialcomponent";
 import BlogComponent from "./sections/blogcomponent";
 import C2aComponent from "./sections/c2acomponent";
-import ContactComponent from "./sections/contactcomponent";
+import FormularioContacto from "./sections/FormularioContacto";
 import CallToAction from "../../components/call-to-action/CallToAction";
 
 const CustomComponents = () => {
@@ -31,7 +31,7 @@ const CustomComponents = () => {
       <TestimonialComponent />
       <BlogComponent />
       <C2aComponent />
-      <ContactComponent />
+      <FormularioContacto />
       <CallToAction />
     </div>
   );
