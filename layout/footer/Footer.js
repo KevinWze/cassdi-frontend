@@ -33,37 +33,35 @@ const Footer = () => {
               </Link>
             </p>
           </Col>
+
+          {/* REDES SOCIALES  */}
+          
           <Col lg="3" md="6">
             <h5 className="m-b-20">Redes Sociales</h5>
             <div className="round-social light">
+
+              {/* FACEBOOK */}
+
               <Link href="https://www.facebook.com/cassdi.solutions/">
-               
                   <i className="fa fa-facebook"></i>
-               
               </Link>
+
+              {/* INSTAGRAM */}
 
               <Link href="https://www.instagram.com/cassdi_solutions/">
-              
                   <i className="fa fa-instagram"></i>
-                
               </Link>
+
+              {/* GITHUB */}
 
               <Link href="https://github.com/cassdi-solutions">
-              
                   <i className="fa fa-github"></i>
-             
               </Link>
+
+              {/* LINKEDIN */}
 
               <Link href="https://www.linkedin.com/company/cassdi/">
-              
                   <i className="fa fa-linkedin"></i>
-              
-              </Link>
-
-              <Link href="#">
-               
-                  <i className="fa fa-youtube-play"></i>
-           
               </Link>
             </div>
           </Col>

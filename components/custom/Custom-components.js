@@ -1,10 +1,9 @@
 import React from "react";
 
 // core components
-import Banner2 from "../banner/Banner2";
+import Bienvenida from "../banner/Bienvenida";
 
 // sections for this page
-import HeaderComponent from "./sections/headercomponent";
 import BannerComponent from "./sections/bannercomponent";
 import FormBannerComponent from "./sections/formbannercomponent";
 import FeatureComponent from "./sections/featurecomponent";
@@ -20,17 +19,16 @@ import CallToAction from "../../components/call-to-action/CallToAction";
 const CustomComponents = () => {
   return (
     <div>
-      <Banner2 />
-      <HeaderComponent />
-      <BannerComponent />
-      <FormBannerComponent />
-      <FeatureComponent />
-      <PortfolioComponent />
-      <PricingComponent />
+      <Bienvenida />
+      {/* <BannerComponent /> */}
+      {/* <FormBannerComponent /> */}
+      {/* <FeatureComponent /> */}
+      {/* <PortfolioComponent /> */}
+      {/* <PricingComponent /> */}
       <TeamComponent />
-      <TestimonialComponent />
+      {/* <TestimonialComponent /> */}
       <BlogComponent />
-      <C2aComponent />
+      {/* <C2aComponent /> */}
       <FormularioContacto />
       <CallToAction />
     </div>
