@@ -6,7 +6,7 @@ import bannerimg from "../../assets/images/landingpage/banner-img.png";
 
 const Banner2 = () => {
   return (
-    <div className="static-slider-head banner2">
+    <div className="static-slider-head">
       <Container>
         <Row className="">
           <Col lg="6" md="6" className="align-self-center">

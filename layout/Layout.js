@@ -1,4 +1,4 @@
-import Header from "/components/custom/sections/Encabezado";
+import Header from "./header/Encabezado";
 import Footer from "./footer/Footer";
 
 const Layout = ({ children }) => {

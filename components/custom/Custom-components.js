@@ -9,7 +9,7 @@ import FormBannerComponent from "./sections/formbannercomponent";
 import FeatureComponent from "./sections/featurecomponent";
 import PortfolioComponent from "./sections/portfoliocomponent";
 import PricingComponent from "./sections/pricingcomponent";
-import TeamComponent from "./sections/teamcomponent";
+import Habilidades from "./sections/Habilidades";
 import TestimonialComponent from "./sections/testimonialcomponent";
 import BlogComponent from "./sections/blogcomponent";
 import C2aComponent from "./sections/c2acomponent";
@@ -19,13 +19,13 @@ import CallToAction from "../../components/call-to-action/CallToAction";
 const CustomComponents = () => {
   return (
     <div>
+      <BannerComponent /> 
       <Bienvenida />
-      {/* <BannerComponent /> */}
       {/* <FormBannerComponent /> */}
       {/* <FeatureComponent /> */}
       {/* <PortfolioComponent /> */}
       {/* <PricingComponent /> */}
-      <TeamComponent />
+      <Habilidades />
       {/* <TestimonialComponent /> */}
       <BlogComponent />
       {/* <C2aComponent /> */}

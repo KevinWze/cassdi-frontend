@@ -1,6 +1,8 @@
 /* eslint-disable */
 import React, { useState } from "react";
-import FormularioContacto from "/components/custom/sections/FormularioContacto";
+import Image from "next/image";
+import { useRouter } from 'next/router';
+import Formulario from "/components/custom/sections/FormularioContacto"
 import {
   Row,
   Col,
@@ -17,26 +19,27 @@ import {
   NavbarToggler,
   Collapse,
 } from "reactstrap";
-import Image from "next/image";
-import logo from "../../../assets/images/logos/green-logo.png";
-import logo2 from "../../../assets/images/logos/white-logo.png";
-import image from "next/image";
+import logo from "../../assets/images/logos/white-text.png";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div id="section">
-      <div className="header1 po-relative bg-dark">
+   
+    <div id="section" className="fixed-top">
+      <div className="bg-dark">
         <Container>
-          <Navbar className="navbar-expand-lg h2-nav">
+
+          <Navbar className="navbar-expand-lg h2-nav container-fluid ">
             <NavbarBrand href="#">
-              <Image src={logo2} alt="wrapkit" />
+              <Image src={logo} alt="wrapkit" />
             </NavbarBrand>
+            
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu text-white"></span>
             </NavbarToggler>
+
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
@@ -46,7 +49,7 @@ const HeaderComponent = () => {
                   <NavLink href="#">¿Que hacemos?</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Contactanos</NavLink>
+                  <NavLink href="">Contactanos</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
