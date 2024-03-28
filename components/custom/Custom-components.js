@@ -6,7 +6,7 @@ import Bienvenida from "../banner/Bienvenida";
 // sections for this page
 import BannerComponent from "./sections/bannercomponent";
 import FormBannerComponent from "./sections/formbannercomponent";
-import FeatureComponent from "./sections/featurecomponent";
+import Servicios from "./sections/Servicios";
 import PortfolioComponent from "./sections/portfoliocomponent";
 import PricingComponent from "./sections/pricingcomponent";
 import Habilidades from "./sections/Habilidades";
@@ -22,7 +22,7 @@ const CustomComponents = () => {
       <BannerComponent /> 
       <Bienvenida />
       {/* <FormBannerComponent /> */}
-      {/* <FeatureComponent /> */}
+      <Servicios />
       {/* <PortfolioComponent /> */}
       {/* <PricingComponent /> */}
       <Habilidades />

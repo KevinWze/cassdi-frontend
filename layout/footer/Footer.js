@@ -1,7 +1,8 @@
 /* eslint-disable */
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
+import Link from "next/link"; 
+import Logo from "../../assets/images/landingpage/portada.png";
 
 const Footer = () => {
   return (
