@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import Formulario from "/components/custom/sections/FormularioContacto"
 import {
   Row,
@@ -19,6 +20,7 @@ import {
   NavbarToggler,
   Collapse,
 } from "reactstrap";
+
 import logo from "../../assets/images/logos/white-text.png";
 
 const HeaderComponent = () => {
@@ -43,7 +45,7 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
-                  <NavLink href="#">Inicio</NavLink>
+                  <NavLink href="/" >Inicio</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="#">¿Que hacemos?</NavLink>
@@ -71,7 +73,7 @@ const HeaderComponent = () => {
                 </NavItem>
                 <NavItem>
                   <a className="btn btn-info" href="#">
-                    Hire Me
+                    Hire me
                   </a>
                 </NavItem>
               </Nav>
