@@ -16,7 +16,7 @@ const PortfolioComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Portfolio</h1>
+              <h1 className="title font-bold">Portafolio de Proyectos</h1>
               <h6 className="subtitle">
                 Here you can check Demos we created based on WrapKit. Its quite
                 easy to Create your own dream website &amp; dashboard in
@@ -24,11 +24,8 @@ const PortfolioComponent = () => {
               </h6>
             </Col>
           </Row>
-        </Container>
-      </div>
       <div className="spacer">
-        <Container>
-          <Row className="justify-content-center">
+          {/* <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <h2 className="title">Our Recent work with three column</h2>
               <h6 className="subtitle">
@@ -37,7 +34,7 @@ const PortfolioComponent = () => {
                 no-time
               </h6>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="m-t-40">
             <Col md="4">
               <Card className="card-shadow">
@@ -132,6 +129,7 @@ const PortfolioComponent = () => {
               </Card>
             </Col>
           </Row>
+          </div>
         </Container>
       </div>
     </div>

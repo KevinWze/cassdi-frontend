@@ -7,11 +7,11 @@ import Bienvenida from "../banner/Bienvenida";
 import BannerComponent from "./sections/bannercomponent";
 import FormBannerComponent from "./sections/formbannercomponent";
 import Servicios from "./sections/Servicios";
-import PortfolioComponent from "./sections/portfoliocomponent";
+import Proyectos from "./sections/Proyectos";
 import PricingComponent from "./sections/pricingcomponent";
 import Habilidades from "./sections/Habilidades";
 import TestimonialComponent from "./sections/testimonialcomponent";
-import BlogComponent from "./sections/blogcomponent";
+import StackTecnologico from "./sections/StackTecnologico";
 import C2aComponent from "./sections/c2acomponent";
 import FormularioContacto from "./sections/FormularioContacto";
 import CallToAction from "../../components/call-to-action/CallToAction";
@@ -23,11 +23,11 @@ const CustomComponents = () => {
       <Bienvenida />
       {/* <FormBannerComponent /> */}
       <Servicios />
-      {/* <PortfolioComponent /> */}
+      <Proyectos />
       {/* <PricingComponent /> */}
       <Habilidades />
       {/* <TestimonialComponent /> */}
-      <BlogComponent />
+      <StackTecnologico />
       {/* <C2aComponent /> */}
       <FormularioContacto />
       <CallToAction />

@@ -13,7 +13,7 @@ const BlogComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="8" className="text-center">
-              <h2 className="title">Recent Blogs</h2>
+              <h2 className="title">Stack Tecnologico</h2>
               <h6 className="subtitle">
                 You can relay on our amazing features list and also our customer
                 services will be great experience for you without doubt and in

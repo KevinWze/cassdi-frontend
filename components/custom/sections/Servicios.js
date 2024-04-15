@@ -23,11 +23,8 @@ const FeatureComponent = () => {
               </h6>
             </Col>
           </Row>
-        </Container>
-      </div>
       <div className="feature4">
-        <Container>
-          <Row className="justify-content-center">
+          {/* <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <span className="label label-danger label-rounded">
                 Feature 1
@@ -39,7 +36,7 @@ const FeatureComponent = () => {
                 no-time
               </h6>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="m-t-40">
             <Col md="6" className="wrap-feature4-box">
               <Card>
@@ -80,6 +77,7 @@ const FeatureComponent = () => {
               </Card>
             </Col>
           </Row>
+          </div>
         </Container>
       </div>
       <div className="bg-light spacer feature20 up">
@@ -252,7 +250,7 @@ const FeatureComponent = () => {
                 </CardBody>
               </Card>
             </Col>
-          </Row>
+          </Row> 
         </Container>
       </div>
     </div>
