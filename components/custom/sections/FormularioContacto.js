@@ -11,8 +11,7 @@ import {
 
 const ContactComponent = () => {
   return (
-    <div>
-      <div className="spacer bg-light">
+      <div className="">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -23,14 +22,13 @@ const ContactComponent = () => {
               ¡No dudes en contáctarnos!
               </h6>
             </Col>
+
+            {/* FORMULARIO DE CONTACTO  */}
+
             <div className="card">
-
-              {/* FORMULARIO DE CONTACTO  */}
-
               <Row className="m-5">
                 <Col lg="8">
                   <div className="contact-box p-r-40">
-                    {/* <h6 className="m-b-30">Envíanos un mensaje</h6> */}
                     <form class="row g-3">
 
                       {/* NOMBRE */}
@@ -39,7 +37,7 @@ const ContactComponent = () => {
                         <label for="inputname" class="form-label">Nombre</label>
                         <input 
                         type="text" 
-                        class="form-control" 
+                        class="form-control " 
                         id="name_form" 
                         required
                         />
@@ -101,7 +99,7 @@ const ContactComponent = () => {
                         type="text" 
                         class="form-control" 
                         id="propuesta_form" 
-                        rows="5" 
+                        rows="4" 
                         required
                         />
                       </div>
@@ -114,12 +112,15 @@ const ContactComponent = () => {
                     </form>
                   </div>
                 </Col>
+
+                {/* INFORMACIÓN DE CONTACTO  */}
+
                 <Col lg="4">
-                  <div className="detail-box p-40 bg-info">
+                  <div className="detail-box p-40 bg-info rounded">
                     <h2 className="text-white">CASSDI</h2>
                     <p className="text-white m-t-30 op-8">
                       251 546 9442
-                      <br /> info@wrappixel.com
+                      <br /> <a>cassdi.solutions@gmail.com</a>
                     </p>
                     <p className="text-white op-8">
                       601 Sherwood Ave.
@@ -132,7 +133,6 @@ const ContactComponent = () => {
           </Row>
         </Container>
       </div>
-    </div>
   );
 };
 

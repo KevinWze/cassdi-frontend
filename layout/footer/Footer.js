@@ -11,27 +11,19 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Dirección</h5>
-            <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
+            <p>Casa de la Natali</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Telefono</h5>
+            <h5 className="m-b-20">Teléfono</h5>
             <p>
-              Reception : +205 123 4567 <br />
-              Office : +207 235 7890
+              Reception : +000 000 0000 <br />
+              Office : +000 000 0000
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
             <p>
-              Office :
-              <Link href="#" className="link">
-                info@wrappixel.com
-              </Link>
-              <br />
-              Site :
-              <Link href="https://www.wrappixel.com"className="link">
-                wrappixel.com
-              </Link>
+              cassdi.solutions@gmail.com
             </p>
           </Col>
 
@@ -67,7 +59,7 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <div className="f4-bottom-bar">
+        {/* <div className="f4-bottom-bar">
           <Row>
             <Col md="12">
               <div className="d-flex font-14">
@@ -91,7 +83,7 @@ const Footer = () => {
               </div>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </Container>
     </div>
   );
