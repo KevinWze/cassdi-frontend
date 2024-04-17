@@ -11,10 +11,11 @@ import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 const FeatureComponent = () => {
   return (
     <div>
-      <div className="bg-light">
+      <div className="blog-home2">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
+              <br></br>
               <h1 className="title font-bold">Servicios</h1>
               <h6 className="subtitle">
                 Here you can check Demos we created based on WrapKit. Its quite

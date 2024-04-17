@@ -11,7 +11,7 @@ import {
 
 const ContactComponent = () => {
   return (
-      <div className="">
+      <div>
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

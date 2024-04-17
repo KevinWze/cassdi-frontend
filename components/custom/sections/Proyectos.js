@@ -12,7 +12,7 @@ import img6 from "../../../assets/images/portfolio/img6.jpg";
 const PortfolioComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      <div className="blog-home2 spacer">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

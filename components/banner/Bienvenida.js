@@ -8,7 +8,7 @@ const Banner2 = () => {
   return (
     <div className="static-slider-head">
       <Container> 
-        <Row className="">
+        <Row className="blog-home2">
           <Col lg="6" md="6" className="align-self-center">
             <h1 className="title">
             Bienvenido a
