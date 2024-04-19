@@ -13,7 +13,8 @@ const ContactComponent = () => {
   return (
       <div>
         <Container>
-          <Row className="justify-content-center">
+        <Row className="justify-content-center">
+          <Row className="justify-content-center blog-home2">
             <Col md="7" className="text-center">
               <h1 className="title font-bold">Contáctanos</h1>
               <h6 className="subtitle">
@@ -22,6 +23,7 @@ const ContactComponent = () => {
               ¡No dudes en contáctarnos!
               </h6>
             </Col>
+          </Row>
 
             {/* FORMULARIO DE CONTACTO  */}
 
