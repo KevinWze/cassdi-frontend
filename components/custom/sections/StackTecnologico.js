@@ -1,10 +1,38 @@
 /* eslint-disable */
 import React from "react";
-import { Row, Col, Container, Card } from "reactstrap";
+import { Row, Col, Container, Card, CardBody, CardTitle } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/blog/blog-home/img3.jpg";
-import img2 from "../../../assets/images/blog/blog-home/img2.jpg";
-import img3 from "../../../assets/images/blog/blog-home/img1.jpg";
+
+function importAll(r) {
+  let images = {};
+  r.keys().map(item => { images[item.replace('./', '')] = r(item); });
+
+  return images;
+}
+
+const images = importAll(require.context('../../../assets/images/stack'));
+
+const allElements = [
+  {
+    title: 'Lenguajes y Frameworks',
+    items: {
+      'java': images['java.png'],
+      'spring': images['spring.png'],
+      'laravel': images['laravel.svg'],
+      'vue': images['vue.jpg'],
+      'html': images['html.png'],
+      'css': images['css.webp'],
+    },
+  },
+  {
+    title: 'Infraestructura',
+    items: {
+      'apache': images['apache.png'],
+      'mysql': images['mysql.png'],
+      'nginx': images['nginx.png'],
+    },
+  },
+];
 
 const BlogComponent = () => {
   return (
@@ -21,86 +49,38 @@ const BlogComponent = () => {
               </h6>
             </Col>
           </Row>
-          <Row className="m-t-40 justify-content-center">
-            <Col lg="4" md="6">
-              <Card>
-                <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img1}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <div className="date-pos bg-info-gradiant">
-                  Oct<span>23</span>
-                </div>
-                <h5 className="font-medium m-t-30">
-                  <a href="#" className="link">
-                    You should have eagle’s eye on new trends and techonogies
-                  </a>
-                </h5>
-                <p className="m-t-20">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-                </p>
-                <a href="#" className="linking text-themecolor m-t-10">
-                  Learn More <i className="ti-arrow-right"></i>
-                </a>
-              </Card>
-            </Col>
-            <Col lg="4" md="6">
-              <Card>
-                <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img2}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <div className="date-pos bg-info-gradiant">
-                  Oct<span>23</span>
-                </div>
-                <h5 className="font-medium m-t-30">
-                  <a href="#" className="link">
-                    New Seminar on Newest Food Recipe from World’s Best
-                  </a>
-                </h5>
-                <p className="m-t-20">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-                </p>
-                <a href="#" className="linking text-themecolor m-t-10">
-                  Learn More <i className="ti-arrow-right"></i>
-                </a>
-              </Card>
-            </Col>
-            <Col lg="4" md="6">
-              <Card>
-                <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img3}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <div className="date-pos bg-info-gradiant">
-                  Oct<span>23</span>
-                </div>
-                <h5 className="font-medium m-t-30">
-                  <a href="#" className="link">
-                    Learn from small things to create something bigger.
-                  </a>
-                </h5>
-                <p className="m-t-20">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-                </p>
-                <a href="#" className="linking text-themecolor m-t-10">
-                  Learn More <i className="ti-arrow-right"></i>
-                </a>
-              </Card>
-            </Col>
-          </Row>
+          <Col>
+            {allElements.map((data) => {
+              return CardComponent(data.title, data.items);
+            })}
+          </Col>
         </Container>
       </div>
-    </div>
+    </div >
+  );
+};
+
+const CardComponent = (title, items) => {
+  return (
+    <Card className="card-shadow">
+      <CardBody>
+        <CardTitle tag="h5">
+          {title}
+        </CardTitle>
+
+        <div className="d-flex flex-row justify-content-start flex-wrap">
+          {Object.keys(items).map((key) => {
+            return <div className="flex-shrink-1 p-3" style={{ 'max-width': '12rem' }}>
+              <Image
+                className="h-100 w-100"
+                style={{ 'object-fit': 'contain' }}
+                alt={key}
+                src={items[key]} />
+            </div>
+          })}
+        </div>
+      </CardBody>
+    </Card>
   );
 };
 
