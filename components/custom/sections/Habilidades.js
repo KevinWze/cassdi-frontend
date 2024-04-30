@@ -9,7 +9,7 @@ const TeamComponent = () => {
             <div className="spacer blog-home2">
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                        <h1 className="title font-bold">Habilidades</h1>
+                        <h1 className="title font-bold">Habilidades</h1> 
                             <h2 className="title">Equipo Profesional y Experiencia</h2>
                             <h6 className="subtitle">Nuestro equipo profesional está compuesto por excelentes programadores con experiencia en diversas áreas, 
                                                      respaldados por un equipo de negocios internacionales y expertos financieros.</h6>

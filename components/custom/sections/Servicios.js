@@ -2,11 +2,11 @@
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/features/feature13/img1.jpg";
-import img2 from "../../../assets/images/features/feature13/img2.jpg";
-import img3 from "../../../assets/images/features/feature13/img3.jpg";
-import img4 from "../../../assets/images/features/feature13/img4.jpg";
-import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
+// import img1 from "../../../assets/images/features/feature13/img1.jpg";
+// import img2 from "../../../assets/images/features/feature13/img2.jpg";
+// import img3 from "../../../assets/images/features/feature13/img3.jpg";
+// import img4 from "../../../assets/images/features/feature13/img4.jpg";
+// import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 
 const FeatureComponent = () => {
   return (
@@ -25,27 +25,17 @@ const FeatureComponent = () => {
             </Col>
           </Row>
       <div className="feature4">
-          {/* <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <span className="label label-danger label-rounded">
-                Feature 1
-              </span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
-              <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
-              </h6>
-            </Col>
-          </Row> */}
           <Row className="m-t-40">
+
+            {/* Aplicaciones Moviles */}
+
             <Col md="6" className="wrap-feature4-box">
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-star"></i>
                   </div>
-                  <h5 className="font-medium">Instant Solutions</h5>
+                  <h5 className="font-medium">Aplicaciones Moviles</h5>
                   <p className="m-t-20">
                     You can relay on our amazing features list and also our
                     customer services will be great experience. Lorem ipsum
@@ -58,13 +48,60 @@ const FeatureComponent = () => {
                 </CardBody>
               </Card>
             </Col>
+
+            {/* Aplicaciones Web */}
+
             <Col md="6" className="wrap-feature4-box">
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Powerful Techniques </h5>
+                  <h5 className="font-medium">Aplicaciones Web</h5>
+                  <p className="m-t-20">
+                    You can relay on our amazing features list and also our
+                    customer services will be great experience. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Praesent
+                    tristique pellentesque ipsum.{" "}
+                  </p>
+                  <a className="linking text-themecolor" href="#">
+                    Explore More <i className="ti-arrow-right"></i>
+                  </a>
+                </CardBody>
+              </Card>
+            </Col>
+
+            {/* Aplicaciones de Escritorio */}
+
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                    <i className="fa fa-check-circle"></i>
+                  </div>
+                  <h5 className="font-medium">Aplicaciones de Escritorio</h5>
+                  <p className="m-t-20">
+                    You can relay on our amazing features list and also our
+                    customer services will be great experience. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Praesent
+                    tristique pellentesque ipsum.{" "}
+                  </p>
+                  <a className="linking text-themecolor" href="#">
+                    Explore More <i className="ti-arrow-right"></i>
+                  </a>
+                </CardBody>
+              </Card>
+            </Col>
+
+            {/* E-commerce */}
+
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                    <i className="fa fa-check-circle"></i>
+                  </div>
+                  <h5 className="font-medium">E-commerce</h5>
                   <p className="m-t-20">
                     You can relay on our amazing features list and also our
                     customer services will be great experience. Lorem ipsum
@@ -81,7 +118,7 @@ const FeatureComponent = () => {
           </div>
         </Container>
       </div>
-      <div className="bg-light spacer feature20 up">
+      {/* <div className="bg-light spacer feature20 up">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -252,8 +289,8 @@ const FeatureComponent = () => {
               </Card>
             </Col>
           </Row> 
-        </Container>
-      </div>
+        </Container> 
+      </div> */}
     </div>
   );
 };

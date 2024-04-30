@@ -34,7 +34,7 @@ const HeaderComponent = () => {
         <Container>
 
           <Navbar className="navbar-expand-lg h2-nav container-fluid ">
-            <NavbarBrand href="#">
+            <NavbarBrand>
               <Image src={logo} alt="wrapkit" />
             </NavbarBrand>
             
@@ -44,38 +44,44 @@ const HeaderComponent = () => {
 
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                <NavItem className="active">
-                  <NavLink href="/" >Inicio</NavLink>
-                </NavItem>
+
+                {/* INICIO  */}
+                
                 <NavItem>
-                  <NavLink href="#">¿Que hacemos?</NavLink>
+                  <NavLink href="#" >Inicio</NavLink>
                 </NavItem>
+
+                {/* SERVICIOS  */}
+
                 <NavItem>
-                  <NavLink href="">Contactanos</NavLink>
+                  <NavLink href="#">Servicios</NavLink>
                 </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav>
-                    Services <i className="fa fa-angle-down m-l-5"></i>
-                  </DropdownToggle>
-                  <DropdownMenu className="b-none animated fadeInUp">
-                    <DropdownItem>Action</DropdownItem>
-                    <DropdownItem>Another action</DropdownItem>
-                    <DropdownItem>Something else here</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>Something else here</DropdownItem>
-                    <DropdownItem>Separated link</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>One more separated link</DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
+
+                {/* PORTAFOLIO */}
+
                 <NavItem>
-                  <NavLink href="#">Freebies</NavLink>
+                  <NavLink href="#">Portafolio</NavLink>
                 </NavItem>
+
+                {/* HABILIDADES */}
+
+                <NavItem>
+                  <NavLink href="#">Habilidades </NavLink>
+                </NavItem>
+
+                {/* STACK TECNOLOGICO */}
+                <NavItem>
+                  <NavLink href="#">Stack Tecnologico</NavLink>
+                </NavItem>
+
+                {/* CONTACTO  */}
+
                 <NavItem>
                   <a className="btn btn-info" href="#">
-                    Hire me
+                    Contactanos
                   </a>
                 </NavItem>
+
               </Nav>
             </Collapse>
           </Navbar>

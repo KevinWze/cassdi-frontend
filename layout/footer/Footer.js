@@ -59,31 +59,17 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        {/* <div className="f4-bottom-bar">
+        <div className="f4-bottom-bar">
           <Row>
             <Col md="12">
               <div className="d-flex font-14">
                 <div className="m-t-10 m-b-10 copyright">
-                  All Rights Reserved by{" "}
-                  <Link href="https://www.wrappixel.com">
-                   wrappixel.com
-                  </Link>
-                </div>
-                <div className="links ml-auto m-t-10 m-b-10">
-                  <Link href="#">
-                    Terms of Use
-                  </Link>
-                  <Link href="#">
-                    Legal Disclaimer
-                  </Link>
-                  <Link href="#">
-                   Privacy Policy
-                  </Link>
+                  CASSDI © 2024 | Consultoria Avanzada de Software y Soluciones de Desarrollo Inteligente
                 </div>
               </div>
             </Col>
           </Row>
-        </div> */}
+        </div>
       </Container>
     </div>
   );
