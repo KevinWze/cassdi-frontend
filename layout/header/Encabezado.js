@@ -21,7 +21,7 @@ import {
   Collapse,
 } from "reactstrap";
 
-import logo from "../../assets/images/logos/white-text.png";
+import logo from "../../assets/images/logos/CASSDI.png"; //Logo CASSDI
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,12 +30,12 @@ const HeaderComponent = () => {
   return (
    
     <div id="section" className="fixed-top">
-      <div className="bg-dark">
+      <div className="bg-black">
         <Container>
 
           <Navbar className="navbar-expand-lg h2-nav container-fluid ">
             <NavbarBrand>
-              <Image src={logo} alt="wrapkit" />
+              <Image src={logo} class="rounded" alt="CASSDI"  width={221} height={64}/>
             </NavbarBrand>
             
             <NavbarToggler onClick={toggle}>
@@ -77,11 +77,10 @@ const HeaderComponent = () => {
                 {/* CONTACTO  */}
 
                 <NavItem>
-                  <a className="btn btn-info" href="#">
+                  <a className="btn btn-info"  href="#">
                     Contactanos
                   </a>
                 </NavItem>
-
               </Nav>
             </Collapse>
           </Navbar>

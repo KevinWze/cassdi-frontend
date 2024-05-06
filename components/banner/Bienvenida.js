@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import bannerimg from "../../assets/images/landingpage/banner-img.png";
+import bannerimg from "../../assets/images/landingpage/Logito_Temporal.png";  //Logo Temporal 
 
 const Banner2 = () => {
   return (
@@ -20,7 +20,7 @@ const Banner2 = () => {
             </h4>
           </Col>
           <Col lg="6" md="6">
-            <Image src={bannerimg} alt="hero banner" />
+            <Image src={bannerimg} alt="Logito Temporal"/>
           </Col>
         </Row>
       </Container>

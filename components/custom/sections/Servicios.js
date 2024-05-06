@@ -2,11 +2,10 @@
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
-// import img1 from "../../../assets/images/features/feature13/img1.jpg";
-// import img2 from "../../../assets/images/features/feature13/img2.jpg";
-// import img3 from "../../../assets/images/features/feature13/img3.jpg";
-// import img4 from "../../../assets/images/features/feature13/img4.jpg";
-// import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
+import img1 from "../../../assets/images/Servicios/Aplicaciones Moviles.png";  //Aplicaciones Moviles
+import img2 from "../../../assets/images/Servicios/Aplicaciones Web.png";  //Aplicaciones Web
+import img3 from "../../../assets/images/Servicios/Aplicaciones de Escritorio.png";  //Aplicaciones de Escritorio
+import img4 from "../../../assets/images/Servicios/E-commerce.png";  //E-commerce
 
 const FeatureComponent = () => {
   return (
@@ -33,7 +32,7 @@ const FeatureComponent = () => {
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
-                    <i className="fa fa-star"></i>
+                  <Image src={img1} alt="Aplicaciones Móviles" width={120} height={120} />
                   </div>
                   <h5 className="font-medium">Aplicaciones Moviles</h5>
                   <p className="m-t-20">
@@ -55,7 +54,7 @@ const FeatureComponent = () => {
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
-                    <i className="fa fa-check-circle"></i>
+                  <Image src={img2} alt="Aplicaciones Móviles" width={120} height={120} />
                   </div>
                   <h5 className="font-medium">Aplicaciones Web</h5>
                   <p className="m-t-20">
@@ -77,7 +76,7 @@ const FeatureComponent = () => {
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
-                    <i className="fa fa-check-circle"></i>
+                  <Image src={img3} alt="Aplicaciones Móviles" width={120} height={120} />
                   </div>
                   <h5 className="font-medium">Aplicaciones de Escritorio</h5>
                   <p className="m-t-20">
@@ -99,7 +98,7 @@ const FeatureComponent = () => {
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
-                    <i className="fa fa-check-circle"></i>
+                  <Image src={img4} alt="Aplicaciones Móviles" width={120} height={120} />
                   </div>
                   <h5 className="font-medium">E-commerce</h5>
                   <p className="m-t-20">
