@@ -43,9 +43,9 @@ const BlogComponent = () => {
             <Col md="8" className="text-center">
               <h1 className="title font-bold">Stack Tecnologico</h1>
               <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+              Tenemos experiencia en múltiples lenguajes de programación y 
+              nos ajustamos a las preferencias tecnológicas de nuestros clientes 
+              para ofrecer soluciones a medida.
               </h6>
             </Col>
           </Row>

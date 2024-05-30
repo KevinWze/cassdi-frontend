@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NextJs UI kit | Free UI kit built with bootstrap</title>
+        <title>CASSDI SOLUTIONS</title>
         <meta
           name="description"
-          content="NextJs UI kit | Free UI kit built with bootstrap"
+          content="CASSDI SOLUTIONS - Consultoria Avanzada de Software y Soluciones de Desarrollo Inteligente"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" /> 
       </Head>
       <CustomComponents />
     </div>

@@ -17,9 +17,8 @@ const FeatureComponent = () => {
               <br></br>
               <h1 className="title font-bold">Servicios</h1>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
+              Ofrecemos una amplia variedad de servicios de desarrollo de software 
+              y trabajamos con cualquier tipo de lenguaje de programación.
               </h6>
             </Col>
           </Row>
@@ -36,14 +35,22 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Aplicaciones Moviles</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.
+                  Programas diseñados específicamente para dispositivos móviles 
+                  como teléfonos y tabletas. Se instalan desde una tienda de 
+                  aplicaciones y permiten realizar tareas en movimiento con 
+                  funcionalidades específicas para dispositivos móviles.
                   </p>
-                  <a href="#" className="linking text-themecolor">
+                  <ul>
+  <li>Plataforma de E-learning</li>
+  <li>App de Servicios a Domicilio</li>
+  <li>Herramienta de Gestión</li>
+  <li>App de Organización y Productividad</li>
+  <li>Aplicación de Control Parental</li>
+  <li>Software de Monitoreo</li>
+    </ul>
+                  {/* <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </CardBody>
               </Card>
             </Col>
@@ -58,14 +65,21 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Aplicaciones Web</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+                  Programas desarrollados para ser accesibles a través de un navegador, 
+                  sin necesidad de instalación. Permiten a los usuarios realizar tareas 
+                  en línea desde cualquier dispositivo con conexión a Internet.
                   </p>
-                  <a className="linking text-themecolor" href="#">
+                  <ul>
+  <li>Sistema de Reservas</li>
+  <li>APlataforma de Gestión de Contenidos (CMS)</li>
+  <li>Red Social Profesional</li>
+  <li>Sistema de Gestión de Proyectos Colaborativos</li>
+  <li>Plataforma de Gestión de Facturas y Pagos</li>
+  <li>Plataforma de E-commerce</li>
+    </ul>
+                  {/* <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </CardBody>
               </Card>
             </Col>
@@ -80,14 +94,20 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Aplicaciones de Escritorio</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+                  Programas instalados directamente en una computadora de escritorio o portátil. 
+                  Ofrecen un alto rendimiento y están diseñadas para aprovechar al máximo los 
+                  recursos del hardware local.
                   </p>
-                  <a className="linking text-themecolor" href="#">
+                  <ul>
+  <li>Sistema de Gestión</li>
+  <li>Herramienta de Análisis</li>
+  <li>Plataforma de Gestión de Proyectos</li>
+  <li>Software de Contabilidad</li>
+  <li>Software de Planificación</li>
+    </ul>
+                  {/* <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </CardBody>
               </Card>
             </Col>
@@ -102,14 +122,21 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">E-commerce</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+                  Plataformas que permiten la compra y venta de productos y servicios en línea. 
+                  Ofrecen funcionalidades como catálogos de productos, carritos de compra, y 
+                  pasarelas de pago para facilitar transacciones seguras.
                   </p>
-                  <a className="linking text-themecolor" href="#">
+                  <ul>
+  <li>Marketplace de Productos</li>
+  <li>Tienda en Línea de Ropa y Accesorios</li>
+  <li>Sitio Web de Alquiler de Propiedades</li>
+  <li>Plataforma de Venta de Productos Digitales</li>
+  <li>Plataforma de Compra y Venta </li>
+  <li>Tienda Virtual de Artículos</li>
+    </ul>
+                  {/* <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </CardBody>
               </Card>
             </Col>
