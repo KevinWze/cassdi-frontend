@@ -14,7 +14,7 @@ const TeamComponent = () => {
             <div className="blog-home2">
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                        <h1 className="title font-bold">Características y aspectos legales de los delitos informáticos</h1> 
+                        <h1 className="title font-bold" id="caracteristicas">Características y aspectos legales de los delitos informáticos</h1> 
                             <h2 className="title">Características de los delitos informáticos tipificados en México</h2>
                         </Col>
                     </Row>
