@@ -57,7 +57,7 @@ const HeaderComponent = () => {
 
 
                 <NavItem>
-                  <NavLink href="/#servicio">Legislación Informática</NavLink>
+                  <NavLink href="/#legislacion">Legislación Informática</NavLink>
                 </NavItem>
 
 
