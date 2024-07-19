@@ -1,4 +1,5 @@
 /* eslint-disable */
+/* update */
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { useRouter } from 'next/router';
@@ -52,7 +53,7 @@ const HeaderComponent = () => {
 
                 
                 <NavItem>
-                  <NavLink href="/cassdi-frontend/" >Inicio</NavLink>
+                  <NavLink href="/cassdi-frontend/">Inicio</NavLink>
                 </NavItem>
 
 
