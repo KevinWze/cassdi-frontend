@@ -1,2 +1,2 @@
 # cassdi-frontend
-Frontend app for CASSDI
+Pagina web Castellanos Martinez Kevin Aldahir, Cortes de la Cruz Angel
