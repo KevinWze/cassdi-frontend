@@ -36,7 +36,7 @@ const HeaderComponent = () => {
   return (
    
     <div id="section" className="fixed-top">
-      <div className="bg-black">
+      <div className="bg-gray">
         <Container>
 
           <Navbar className="navbar-expand-lg h2-nav container-fluid ">
