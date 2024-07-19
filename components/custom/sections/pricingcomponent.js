@@ -34,53 +34,67 @@ const PricingComponent = () => {
           <Row className="m-t-40">
             <Col md="4" className="ml-auto pricing-box align-self-center">
               <Card className="b-all">
-                <CardBody className="p-30 text-center">
-                  <h5>Regular Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">39</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
+                <CardBody className="p-30 text-center"> 
+                  <h5>Derechos de autor</h5>
                   <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
+                  Los derechos de autor son un conjunto de leyes que protegen 
+                  las obras creativas de los autores, permitiéndoles controlar 
+                  el uso y distribución de sus creaciones.
+                  </p>
+                  <h5 className="font-medium">Ejemplo:</h5>
+                  <p className="m-t-40">
+                  Un autor escribe un libro y registra su obra en la oficina 
+                  de derechos de autor de su país. Esto le otorga el derecho 
+                  exclusivo de reproducir, distribuir y realizar adaptaciones 
+                  de su libro. Si alguien quiere hacer una película basada en 
+                  su libro, necesita obtener su permiso y posiblemente pagarle 
+                  por los derechos.
                   </p>
                 </CardBody>
-                <a className="btn btn-info p-15 btn-arrow btn-block" href="#">
-                  CHOOSE PLAN{" "}
-                </a>
               </Card>
             </Col>
             <Col md="4" className="ml-auto pricing-box align-self-center">
               <Card className="b-all">
                 <CardBody className="p-30 text-center">
-                  <h5>Master Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">49</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
+                  <h5>Privacidad</h5>
                   <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
+                  La privacidad se refiere al derecho de los individuos a 
+                  controlar la información que se recopila sobre ellos y 
+                  cómo se utiliza.
+                  </p>
+                  <h5 className="font-medium">Ejemplo:</h5>
+                  <p className="m-t-20">
+                  Una persona se inscribe en un servicio de correo electrónico 
+                  y proporciona su dirección de correo electrónico y nombre. La 
+                  empresa que ofrece el servicio debe respetar la privacidad de 
+                  esta persona, utilizando la información solo para el propósito 
+                  declarado y no compartiéndola con terceros sin su consentimiento.
                   </p>
                 </CardBody>
-                <a className="btn btn-danger p-15 btn-arrow btn-block" href="#">
-                  CHOOSE PLAN{" "}
-                </a>
               </Card>
             </Col>
             <Col md="4" className="ml-auto pricing-box align-self-center">
               <Card className="b-all">
                 <CardBody className="p-30 text-center">
-                  <h5>Premium Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">69</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
+                  <h5>Protección de datos</h5>
                   <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
+                  La protección de datos implica medidas para garantizar 
+                  que la información personal de las personas esté segura 
+                  y se utilice de manera adecuada.
+                  </p>
+                  <h5 className="font-medium">Ejemplo:</h5>
+                  <p className="m-t-20">
+                  Una clínica médica recopila información personal y de 
+                  salud de sus pacientes. Para proteger estos datos, la 
+                  clínica implementa medidas de seguridad como el cifrado 
+                  de la información, acceso restringido solo a personal 
+                  autorizado y copias de seguridad periódicas. Además, la 
+                  clínica debe cumplir con leyes de protección de datos, como 
+                  el Reglamento General de Protección de Datos (GDPR) en la Unión 
+                  Europea, que regula cómo deben manejarse y protegerse los datos 
+                  personales.
                   </p>
                 </CardBody>
-                <a className="btn btn-info p-15 btn-arrow btn-block" href="#">
-                  CHOOSE PLAN{" "}
-                </a>
               </Card>
             </Col>
           </Row>

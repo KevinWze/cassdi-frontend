@@ -21,15 +21,11 @@ const CustomComponents = () => {
     <div>
       <BannerComponent /> 
       <Bienvenida />
-      {/* <FormBannerComponent /> */}
       <Servicios />
-      <Proyectos />
-      {/* <PricingComponent /> */}
+      <Proyectos /> 
       <Habilidades />
-      {/* <TestimonialComponent /> */}
+      <TestimonialComponent /> 
       <StackTecnologico />
-      {/* <C2aComponent /> */}
-      <FormularioContacto />
       <CallToAction />
     </div>
   );

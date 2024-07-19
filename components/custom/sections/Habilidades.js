@@ -1,133 +1,215 @@
 /* eslint-disable */
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col, Card, CardBody, Container } from 'reactstrap';
+import Image from 'next/image';
+
+import img1 from "../../../assets/images/Servicios/Aplicaciones Moviles.png";  //Aplicaciones Moviles
+import img2 from "../../../assets/images/Servicios/Aplicaciones Web.png";  //Aplicaciones Web
+import img3 from "../../../assets/images/Servicios/Aplicaciones de Escritorio.png";  //Aplicaciones de Escritorio
 
 const TeamComponent = () => {
     return (
         <div> 
                 <Container>
-            <div className="spacer blog-home2">
+            <div className="blog-home2">
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                        <h1 className="title font-bold">Habilidades</h1> 
-                            <h2 className="title">Equipo Profesional y Experiencia</h2>
-                            <h6 className="subtitle">Nuestro equipo profesional está compuesto por excelentes programadores con experiencia en diversas áreas, 
-                                                     respaldados por un equipo de negocios internacionales y expertos financieros.</h6>
+                        <h1 className="title font-bold">Características y aspectos legales de los delitos informáticos</h1> 
+                            <h2 className="title">Características de los delitos informáticos tipificados en México</h2>
                         </Col>
                     </Row>
-
-                    {/* Isaac CV */}
 
                     <Row className="m-t-30">
                     <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Isaac de Leon</h5>
-                                        <h6 className="subtitle fw-bold">Desarrollador Full Stack</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <h5 className="title font-medium">Descripción de delitos específicos</h5>
+                                        <h6 className="subtitle fw-bold">Acceso no autorizado a sistemas</h6>
+                                        <p>
+                                        Se refiere a la acción de ingresar a un sistema informático 
+                                        sin permiso del propietario. Este delito puede incluir la 
+                                        obtención de información confidencial o el uso de recursos 
+                                        del sistema sin autorización.
+                                        </p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
-
-                    {/* Angel CV */}
 
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Angel Cortes</h5>
-                                        <h6 className="subtitle fw-bold">Desarrollador Full Stack</h6>
-                                        <p>Desarrollador de interfaces atractivas y sistemas backend robustos, al tanto de las últimas tendencias en ingeniería de software para ofrecer soluciones de calidad.</p>
+                                    <h5 className="title font-medium">Descripción de delitos específicos</h5>
+                                    <h6 className="subtitle fw-bold">Alteración de datos</h6>
+                                        <p>Implica modificar, borrar o añadir datos en un sistema 
+                                            informático sin autorización. Esto puede tener consecuencias
+                                             graves, como la manipulación de registros financieros o 
+                                             la alteración de datos personales.</p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
-
-                    {/* Marco CV */}
 
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Marco Joel</h5>
-                                        <h6 className="subtitle fw-bold">Desarrollador Full Stack</h6>
-                                        <p>Capacitado en el desarrollo de aplicaciones completas, abarcando desde la interfaz de usuario hasta la lógica del servidor. Capaz de crear soluciones innovadoras y eficientes que satisfacen las necesidades de los clientes, y garantiza resultados de alta calidad en cada etapa del proceso de desarrollo.</p>
+                                    <h5 className="title font-medium">Descripción de delitos específicos</h5>
+                                    <h6 className="subtitle fw-bold">Difusión de malware</h6>
+                                        <p>Es la distribución de software malicioso diseñado para dañar, 
+                                            interferir o acceder sin autorización a sistemas informáticos. 
+                                            Ejemplos de malware incluyen virus, troyanos, ransomware y 
+                                            spyware.
+                                            </p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
-
-                    {/* Kevin CV */}
 
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Kevin Aldahir</h5>
-                                        <h6 className="subtitle fw-bold">Desarrollador de Base de Datos</h6>
-                                        <p>Desarrollador de programación web y frameworks, con enfoque en POO. Fuerte en bases de datos relacionales y orientadas a objetos, destacando en procedimientos almacenados y disparadores</p>
+                                        <h5 className="title font-medium">Estadísticas y ejemplos</h5>
+                                        <h6 className="subtitle fw-bold">Datos sobre la prevalencia de estos delitos</h6>
+                                        <p>Según el Instituto Nacional de Estadística y Geografía (INEGI), 
+                                            en México, los delitos informáticos han ido en aumento en los 
+                                            últimos años. Un informe de 2020 indicó que el 22.8% de las 
+                                            empresas mexicanas han sido víctimas de algún tipo de 
+                                            ciberataque.
+                                            </p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
 
-                   {/* Erick CV */}
+                        {/* Aspectos legales relacionados con delitos informáticos en México */}
 
-                    <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Erick Saucedo</h5>
-                                        <h6 className="subtitle fw-bold">Desarrollador Full Stack</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
+                        
+                    <Row className="justify-content-center">
+                        <Col md="7" className="text-center">
+                        <h1 className="title font-bold">Aspectos legales relacionados con delitos informáticos en México</h1> 
+                            <h2 className="title">Marco legal aplicable</h2>
                         </Col>
+                    </Row>
 
-                    {/* Tirza CV */}
+                    <div className="feature4">
+          <Row className="m-t-40">
 
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Tirza Lopez</h5>
-                                        <h6 className="subtitle fw-bold">Negocios Internacionales</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                  <Image src={img1} alt="Aplicaciones Móviles" width={120} height={120} />
+                  </div>
+                  <h5 className="font-medium">Ley Federal de Delitos Informáticos</h5>
+                  <p className="m-t-20">
+                  Esta ley establece sanciones para diversas actividades delictivas relacionadas 
+                  con el uso de computadoras y sistemas de información. Específicamente, tipifica 
+                  delitos como el acceso no autorizado a sistemas, la alteración de datos y la difusión 
+                  de malware.
 
-                    {/* Natali CV */}
+                  </p>
+                  <h5 className="font-medium">Otras normativas relevantes</h5>
+                  <p className="m-t-20">
+                  
+                  Incluyen la Ley General de Protección de Datos Personales en Posesión de lo
+                Particulares y el Código Penal Federal, que también contemplan sanciones para delitos 
+                informáticos y la protección de datos personales.
 
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Natali Aleman</h5>
-                                        <h6 className="subtitle fw-bold">xd</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
+                </p>
 
-                    {/* Etlin CV */}
+                  
+                </CardBody>
+              </Card>
+            </Col>
 
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Etlin Avelino</h5>
-                                        <h6 className="subtitle fw-bold">Financiero</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
+
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                  <Image src={img2} alt="Aplicaciones Móviles" width={120} height={120} />
+                  </div>
+                  <h5 className="font-medium">Procedimientos legales</h5>
+                  <p className="m-t-20">
+                  </p>
+                  <h5 className="font-medium">Investigación</h5>
+                  <p className="m-t-20">
+                  Los delitos informáticos son investigados por unidades especializadas 
+                  dentro de la Policía Federal y otras agencias de seguridad. Utilizan 
+                  herramientas de análisis forense digital para recopilar evidencia.
+
+                  </p>
+                  <h5 className="font-medium">Procesamiento y sanciones</h5>
+                  <p className="m-t-20">
+                  
+                  Los casos de delitos informáticos son llevados a los tribunales donde 
+                  se pueden imponer sanciones que van desde multas hasta penas de prisión, 
+                  dependiendo de la gravedad del delito y sus consecuencias.
+
+                </p>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                  <Image src={img3} alt="Aplicaciones Móviles" width={120} height={120} />
+                  </div>
+                  <h5 className="font-medium">
+                    Proceso de elaboración de códigos de conducta y 
+                    ética informática
+                    Importancia de los códigos de conducta
+                    </h5>
+                  <p className="m-t-20">
+                  </p>
+                  <h5 className="font-medium">Establecen pautas claras</h5>
+                  <p className="m-t-20">
+                  Los códigos de conducta y ética informática son esenciales para definir las 
+                  expectativas de comportamiento en el uso de tecnologías. Ayudan a prevenir malas 
+                  prácticas y aseguran un entorno digital seguro y respetuoso.
+                  </p>
+                  <h5 className="font-medium">Promueven la responsabilidad</h5>
+                  <p className="m-t-20">
+                  Estos códigos fomentan un sentido de responsabilidad y profesionalismo entre los 
+                  usuarios y empleados, destacando la importancia de proteger la información y 
+                  respetar las leyes.
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col md="6" className="wrap-feature4-box">
+              <Card>
+                <CardBody>
+                  <div className="icon-round bg-light-info">
+                  <Image src={img3} alt="Aplicaciones Móviles" width={120} height={120} />
+                  </div>
+                  <h5 className="font-medium">Ejemplos de códigos de conducta de una empresa de tecnología</h5>
+                  <p className="m-t-20">
+                  </p>
+                  <h5 className="font-medium">Confidencialidad:</h5>
+                  <p className="m-t-20">
+                  Los empleados deben proteger la información confidencial y no compartirla con personas no autorizadas.
+                  </p>
+                  <h5 className="font-medium">Uso adecuado de recursos:</h5>
+                  <p className="m-t-20">
+                  Los recursos tecnológicos deben utilizarse exclusivamente para actividades laborales y de acuerdo con las políticas de la empresa.
+                  </p>
+                  <h5 className="font-medium">Respeto a la propiedad intelectual:</h5>
+                  <p className="m-t-20">
+                  Se deben respetar los derechos de autor y las licencias de software, evitando el uso de software no autorizado.
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
+          </div>
                     </Row>
                     </div>
                 </Container>

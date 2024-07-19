@@ -11,13 +11,12 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Dirección</h5>
-            <p>Casa de la Natali</p>
+            <p>Av. 5 de Mayo Manzana 018, Tecamac, 55740 Tecámac de Felipe Villanueva, Méx.</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Teléfono</h5>
             <p>
-              Reception : +000 000 0000 <br />
-              Office : +000 000 0000
+              Reception : 55 5938 8670 <br />
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
@@ -35,13 +34,13 @@ const Footer = () => {
 
               {/* FACEBOOK */}
 
-              <Link href="https://www.facebook.com/cassdi.solutions/">
+              <Link href="https://www.facebook.com/UniversidadPolitecnicadeTecamac/?locale=es_LA">
                   <i className="fa fa-facebook"></i>
               </Link>
 
               {/* INSTAGRAM */}
 
-              <Link href="https://www.instagram.com/cassdi_solutions/">
+              <Link href="https://www.instagram.com/uptecamac/">
                   <i className="fa fa-instagram"></i>
               </Link>
 

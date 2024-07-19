@@ -9,19 +9,14 @@ const CallToAction = () => {
           <Col md="6">
             <div className="d-flex align-items-center">
               <div>
-                <h2 className="title text-white font-weight-bold">
-                  Pro Version coming soon
+                <h2 className="title text-black font-weight-bold">
+                Presenta Información Legal de Manera Accesible
                 </h2>
-                <h6 className="subtitle font-light text-white">
-                  We will add Pro Version with tons of great features and
-                  multiple category demos which is ready to use...
+                <h6 className="subtitle font-light text-black">
+                Traduce el lenguaje legal complejo en términos más simples para que los usuarios que no son expertos en el tema puedan entenderlo.
                 </h6>
-                <Button
-                  href="/#coming"
-                  className="btn btn-dark m-r-20 btn-md m-t-30"
-                >
-                  Comming Soon
-                </Button>
+                <h6 className="subtitle font-light text-black">
+                Ofrece guías detalladas sobre el proceso de registro de obras y la elaboración de avisos de privacidad. Incluye pasos específicos y requisitos.                </h6>
               </div>
             </div>
           </Col>
