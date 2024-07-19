@@ -15,7 +15,7 @@ const TestimonialComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Leyes y trámites de registro</h1>
+              <h1 className="title font-bold" id="leyes">Leyes y trámites de registro</h1>
               <h4 className="subtitle">
               Leyes nacionales e internacionales aplicables a los derechos de autor, 
               privacidad y protección de datos
