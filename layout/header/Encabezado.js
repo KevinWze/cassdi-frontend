@@ -52,32 +52,32 @@ const HeaderComponent = () => {
 
                 
                 <NavItem>
-                  <NavLink href="/" >Inicio</NavLink>
+                  <NavLink href="/cassdi-frontend/" >Inicio</NavLink>
                 </NavItem>
 
 
                 <NavItem>
-                  <NavLink href="/#legislacion">Legislación Informática</NavLink>
+                  <NavLink href="/cassdi-frontend/#legislacion">Legislación Informática</NavLink>
                 </NavItem>
 
 
                 <NavItem>
-                  <NavLink href="/#portafolio">Proceso de trámite</NavLink>
+                  <NavLink href="/cassdi-frontend/#proceso">Proceso de trámite</NavLink>
                 </NavItem>
 
 
                 <NavItem>
-                  <NavLink href="/#Habilidades">Características</NavLink>
+                  <NavLink href="/cassdi-frontend/#caracteristicas">Características</NavLink>
                 </NavItem>
 
 
                 <NavItem>
-                  <NavLink href="/#stack">Leyes y Tramites</NavLink>
+                  <NavLink href="/cassdi-frontend/#leyes">Leyes y Tramites</NavLink>
                 </NavItem>
 
 
                 <NavItem>
-                  <NavLink href="/#stack">Ética informática</NavLink>
+                  <NavLink href="/cassdi-frontend/#etica">Ética informática</NavLink>
                 </NavItem>
 
               </Nav>
