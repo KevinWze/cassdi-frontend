@@ -17,7 +17,7 @@ const PortfolioComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Proceso de trámite de registro de obras ante la institución de derechos de autor</h1>
+              <h1 className="title font-bold" id="proceso">Proceso de trámite de registro de obras ante la institución de derechos de autor</h1>
               <h3 className="subtitle">
               Proceso de Trámite de Registro
               </h3>
