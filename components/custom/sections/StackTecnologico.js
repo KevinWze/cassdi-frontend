@@ -15,7 +15,7 @@ const Cards = () => {
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
                         <br/>
-                            <h1 className="title font-bold">Ética informática y delitos informáticos</h1>
+                            <h1 className="title font-bold" id ="etica">Ética informática y delitos informáticos</h1>
                             <h3 className="subtitle">Conceptos de ética y delitos informáticos</h3>
                         </Col>
                     </Row>
