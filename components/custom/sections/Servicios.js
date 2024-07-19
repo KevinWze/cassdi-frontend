@@ -15,7 +15,7 @@ const FeatureComponent = () => {
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <br></br>
-              <h1 className="title font-bold">Legislación Informática</h1>
+              <h1 className="title font-bold" id="legislacion">Legislación Informática</h1>
               <h6 className="subtitle">
               Conceptos de derechos de autor, privacidad y protección de datos
               </h6>
