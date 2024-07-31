@@ -22,7 +22,7 @@ const Banner2 = () => {
             Legislación y Ética Informática. Aquí profundizaremos en cómo proteger 
             los datos, cumplir con las leyes y mantener un comportamiento ético en 
             el uso de la tecnología. Este sitio ofrece una visión detallada de estos 
-            aspectos cruciales. Por: <br></br>
+            aspectos cruciales.
             Cortes de la Cruz Angel y Castellanos Martinez Kevin Aldahir.
             </h4>
           </Col>
