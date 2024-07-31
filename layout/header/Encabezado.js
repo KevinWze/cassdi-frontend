@@ -81,6 +81,10 @@ const HeaderComponent = () => {
                   <NavLink href="/cassdi-frontend/#etica">Ética informática</NavLink>
                 </NavItem>
 
+                <NavItem>
+                  <NavLink href="/cassdi-frontend/#conclusion">Conclusiones y Referencias</NavLink>
+                </NavItem>
+
               </Nav>
             </Collapse>
           </Navbar>
