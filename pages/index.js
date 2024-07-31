@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>CASSDI SOLUTIONS</title>
+        <title>Seguridad de la información</title>
         <meta
           name="description"
           content="CASSDI SOLUTIONS - Consultoria Avanzada de Software y Soluciones de Desarrollo Inteligente"
