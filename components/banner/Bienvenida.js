@@ -23,7 +23,6 @@ const Banner2 = () => {
             los datos, cumplir con las leyes y mantener un comportamiento ético en 
             el uso de la tecnología. Este sitio ofrece una visión detallada de estos 
             aspectos cruciales.
-            Cortes de la Cruz Angel y Castellanos Martinez Kevin Aldahir.
             </h4>
           </Col>
           <Col lg="6" md="6">
