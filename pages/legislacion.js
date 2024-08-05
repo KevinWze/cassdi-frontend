@@ -1,10 +1,12 @@
+// pages/legislacion.js
+
 import React from "react";
-import FeatureComponent from "../components/custom/sections/FeatureComponent"; // Asegúrate de que la ruta sea correcta
+import Legislacion from "../components/custom/sections/Legislacion";
 
 const LegislacionPage = () => {
   return (
     <div>
-      <FeatureComponent />
+      <Legislacion />
     </div>
   );
 };

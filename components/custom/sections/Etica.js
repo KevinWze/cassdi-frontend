@@ -7,14 +7,16 @@ import img1 from "../../../assets/images/seguridad/confidencial.png"
 import img2 from "../../../assets/images/seguridad/integridad.png"
 import img3 from "../../../assets/images/seguridad/responsabilidad.png"
 
-const Cards = () => {
+const Etica = () => {
     return (
         <div>
             <div id="card-component">
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                        <br/>
+                        <br/><br/>
+                        <br/><br/>
+                        
                             <h1 className="title font-bold" id ="etica">Ética informática y delitos informáticos</h1>
                             <h3 className="subtitle">Conceptos de ética y delitos informáticos</h3>
                         </Col>
@@ -60,4 +62,4 @@ const Cards = () => {
     );
 }
 
-export default Cards;
+export default Etica;

@@ -3,7 +3,7 @@ import { Row, Col, Container, Form } from "reactstrap";
 import Image from "next/image";
 import banner from "../../../assets/images/seguridad/xdxd.jpg";
 
-const FormBannerComponent = () => {
+const Conclusiones = () => {
   return (
     <div>
       <div className="spacer bg-light">
@@ -199,4 +199,4 @@ const FormBannerComponent = () => {
   );
 };
 
-export default FormBannerComponent;
+export default Conclusiones;

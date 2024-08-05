@@ -7,13 +7,16 @@ import img1 from "../../../assets/images/Servicios/Aplicaciones Moviles.png";  /
 import img2 from "../../../assets/images/Servicios/Aplicaciones Web.png";  //Aplicaciones Web
 import img3 from "../../../assets/images/Servicios/Aplicaciones de Escritorio.png";  //Aplicaciones de Escritorio
 
-const TeamComponent = () => {
+const Caracteristicas = () => {
     return (
         <div> 
                 <Container>
             <div className="blog-home2">
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
+                        <br></br>
+                        <br></br>
+                        <br></br>
                         <h1 className="title font-bold" id="caracteristicas">Características y aspectos legales de los delitos informáticos</h1> 
                             <h2 className="title">Características de los delitos informáticos tipificados en México</h2>
                         </Col>
@@ -218,4 +221,4 @@ const TeamComponent = () => {
     );
 }
 
-export default TeamComponent;
+export default Caracteristicas;

@@ -8,13 +8,17 @@ import comparacion from "../../../assets/images/seguridad/comparacion.jpg"
 import beneficio from "../../../assets/images/seguridad/Beneficios del registro.jpg"
 import procedimiento from "../../../assets/images/seguridad/Procedimientos y documentos.jpg"
 
-const TestimonialComponent = () => {
+const Leyes = () => {
   return (
     <div>
       <div className="testimonial3 bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
               <h1 className="title font-bold" id="leyes">Leyes y trámites de registro</h1>
               <h4 className="subtitle">
               Leyes nacionales e internacionales aplicables a los derechos de autor, 
@@ -132,4 +136,4 @@ const TestimonialComponent = () => {
   );
 };
 
-export default TestimonialComponent;
+export default Leyes;

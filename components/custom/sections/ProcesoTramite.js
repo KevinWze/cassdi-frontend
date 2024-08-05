@@ -10,13 +10,17 @@ import img5 from "../../../assets/images/seguridad/pago.png";
 import img6 from "../../../assets/images/seguridad/revision.png";
 import img7 from "../../../assets/images/seguridad/certificado.png";
 
-const PortfolioComponent = () => {
+const ProcesoTramite = () => {
   return (
     <div>
       <div className="blog-home2">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
               <h1 className="title font-bold" id="proceso">Proceso de trámite de registro de obras ante la institución de derechos de autor</h1>
               <h3 className="subtitle">
               Proceso de Trámite de Registro
@@ -171,4 +175,4 @@ const PortfolioComponent = () => {
   );
 };
 
-export default PortfolioComponent;
+export default ProcesoTramite;
