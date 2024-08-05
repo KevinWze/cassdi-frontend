@@ -34,16 +34,16 @@ const HeaderComponent = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-   
+
     <div id="section" className="fixed-top">
       <div className="bg-black">
         <Container>
 
           <Navbar className="navbar-expand-lg h2-nav container-fluid ">
             <NavbarBrand>
-              <Image src={logo_upt} class="rounded" alt="UPT"  width={112} height={75}/>
+              <Image src={logo_upt} class="rounded" alt="UPT" width={112} height={75} />
             </NavbarBrand>
-            
+
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu text-white"></span>
             </NavbarToggler>
@@ -51,38 +51,42 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
 
-                
-                <NavItem>
-                  <NavLink href="/cassdi-frontend/">Inicio</NavLink>
-                </NavItem>
-
 
                 <NavItem>
-                  <NavLink href="/cassdi-frontend/legislacion">Legislación Informática</NavLink>
-                </NavItem>
-
-
-                <NavItem>
-                  <NavLink href="/proceso">Proceso de trámite</NavLink>
-                </NavItem>
-
-
-                <NavItem>
-                  <NavLink href="/caracteristicas">Características</NavLink>
-                </NavItem>
-
-
-                <NavItem>
-                  <NavLink href="/leyes">Leyes y Tramites</NavLink>
-                </NavItem>
-
-
-                <NavItem>
-                  <NavLink href="/etica">Ética informática</NavLink>
+                  <Link href="/" passHref>
+                    Inicio
+                  </Link>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="/conclusiones">Conclusiones y Referencias</NavLink>
+                  <Link href="/legislacion" passHref>
+                    Legislación Informática
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/proceso" passHref>
+                    Proceso de trámite
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/caracteristicas" passHref>
+                    Características
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/leyes" passHref>
+                    Leyes y Trámites
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/etica" passHref>
+                    Ética informática
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/conclusiones" passHref>
+                    Conclusiones y Referencias
+                  </Link>
                 </NavItem>
 
               </Nav>
