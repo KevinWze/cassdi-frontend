@@ -58,7 +58,7 @@ const HeaderComponent = () => {
 
 
                 <NavItem>
-                  <NavLink href="/legislacion">Legislación Informática</NavLink>
+                  <NavLink href="/cassdi-frontend/legislacion">Legislación Informática</NavLink>
                 </NavItem>
 
 
